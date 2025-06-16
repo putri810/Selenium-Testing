@@ -38,7 +38,6 @@ public class SeleniumIntroductionTest {
          WebElement userName = driver.findElement(By.id("user-name"));
          userName.sendKeys("standard_user");
 
-
          driver.findElement(By.name("password")).sendKeys("secret_sauce");
 
          WebElement loginButton = driver.findElement(By.className("btn_action"));
@@ -63,7 +62,6 @@ public class SeleniumIntroductionTest {
 
         WebElement userName = driver.findElement(By.id("user-name"));
          userName.sendKeys("standard_user_failed");
-
 
          driver.findElement(By.name("password")).sendKeys("secret_sauce");
 

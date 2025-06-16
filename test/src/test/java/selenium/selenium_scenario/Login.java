@@ -28,7 +28,7 @@ public class Login {
 
         Thread.sleep(2000);
 
-        // Cek apakah berhasil login ke halaman produk
+        // Cek kembali apakah berhasil login ke halaman produk
         String title = driver.findElement(By.xpath("//span[@class='title']")).getText();
         Assert.assertEquals(title, "Products", "Title Home text does not match!");
     }
